@@ -1,0 +1,4 @@
+def solution(seoul):
+    for x,y in enumerate(seoul):
+        if y == 'Kim':
+            return '김서방은 '+str(x)+'에 있다'
